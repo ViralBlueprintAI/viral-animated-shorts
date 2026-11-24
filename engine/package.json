@@ -1,0 +1,19 @@
+{
+  "name": "viral-animated-shorts-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser engine for vertical animated story shorts: 2D cartoon cast in a 3D ink world (three.js). Example: The Dancing Plague.",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/s_main.ts --bundle --outfile=public/s_bundle.js --format=iife --target=es2020",
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "ffmpeg-static": "^5.2.0",
+    "postprocessing": "6.36.4",
+    "puppeteer-core": "^23.0.0",
+    "three": "0.170.0"
+  }
+}
