@@ -1,0 +1,10 @@
+node_modules/
+engine/out/
+out/
+*.wav
+*.mp3
+*.flac
+*.mp4
+sfx/
+__pycache__/
+.DS_Store
